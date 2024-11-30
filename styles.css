@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff99cc, #66ccff);
+    font-family: Arial, sans-serif;
+}
+
+.love-meter {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff66b2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff3399;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+#heart {
+    font-size: 50px;
+}
+
+#face {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+#percentage {
+    font-size: 24px;
+    margin-top: 10px;
+}
